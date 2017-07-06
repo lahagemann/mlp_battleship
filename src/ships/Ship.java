@@ -3,7 +3,7 @@ package ships;
 import util.*;
 
 public abstract class Ship {
-	private Position cell;
+	private Position cell = new Position();
 	private boolean isHit;
 	
 	public Position getPosition() {
