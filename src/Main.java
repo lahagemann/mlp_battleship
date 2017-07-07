@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -123,7 +124,46 @@ public class Main {
 		initMines();
 	}
 	
-	public static void main(String[] args) {
+	public static boolean hitShip(int x, int y) {
+		
+		for (int i = 0; i < ships.size(); i++) {
+			if(ships.get(i) instanceof Mine) {
+				Mine m = (Mine)ships.get(i);
+				if (m.hitThisShip(x, y)) {
+					table[x][y] = 4;
+					return true;
+				}
+			} else if(ships.get(i) instanceof Submarine) {
+				Submarine s = (Submarine)ships.get(i);
+				if(s.hitThisShip(x, y)) {
+					table[x][y] = 5;
+					return true;
+				}
+			} else if(ships.get(i) instanceof Destroyer) {
+				Destroyer d = (Destroyer)ships.get(i);
+				if(d.hitThisShip(x, y)) {
+					table[x][y] = 6;
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	public static void removeDownedShips() {
+		// only one ship is downed at once.
+		int removeIndex = 0;
+		
+		for (int i = 0; i < ships.size(); i++) {
+			if(ships.get(i).isShipDown()){
+				removeIndex = i;
+			}
+		}
+		
+		ships.remove(removeIndex);
+	}
+	
+	public static void main(String[] args) throws IOException {
 		ships = new ArrayList<Ship>();
 		table = new int[15][15];
 		
@@ -137,7 +177,26 @@ public class Main {
 			System.out.println();
 		}
 		
+		while(ships.size() > 0)
+		{
+			for (int i = 0; i < table.length; i++) {
+				for (int j = 0; j < table[i].length; j++) {
+					System.out.print(table[i][j] + " ");
+				}
+				System.out.println();
+			}
+			
+			System.out.print("Enter x: ");
+			int x = System.in.read();
+			System.out.print("\nEnter y: ");
+			int y = System.in.read();
+			
+			hitShip(x, y);
+			
+			removeDownedShips();
+		}
 		
-		System.out.println("BATTLESHIP!");
+		
+		System.out.println("YOU WON!");
 	}
 }

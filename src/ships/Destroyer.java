@@ -8,6 +8,10 @@ public class Destroyer extends Mine {
 	private Position cell3 = new Position();
 	private char orientation;
 	
+	private boolean hitCell1;
+	private boolean hitCell2;
+	private boolean hitCell3;
+	
 	public Destroyer()
 	{
 		super();
@@ -57,6 +61,39 @@ public class Destroyer extends Mine {
 		// fazer verificação se é valida a posição da cell3
 		this.cell3.setX(x);
 		this.cell3.setY(y);
+	}
+	
+	private void setHitCell1(boolean isHit) {
+		this.hitCell1 = isHit;
+	}
+	
+	private void setHitCell2(boolean isHit) {
+		this.hitCell2 = isHit;
+	}
+	
+	private void setHitCell3(boolean isHit) {
+		this.hitCell3 = isHit;
+	}
+	
+	public boolean hitThisShip(int x, int y) {
+		if(x == this.getPosition().getX() && y == this.getPosition().getY()) {
+			if(this.hitCell2 && this.hitCell3)
+				this.setIsDown(true);
+			this.setHitCell1(true);
+			return true;
+		} else if(x == this.cell2.getX() && y == this.cell2.getY()) {
+			if(this.hitCell1 && this.hitCell3)
+				this.setIsDown(true);
+			this.setHitCell2(true);
+			return true;
+		} else if(x == this.cell3.getX() && y == this.cell3.getY()) {
+			if(this.hitCell1 && this.hitCell2)
+				this.setIsDown(true);
+			this.setHitCell3(true);
+			return true;
+		}
+		
+		return false;
 	}
 
 }
