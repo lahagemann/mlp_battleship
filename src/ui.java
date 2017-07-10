@@ -79,7 +79,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -105,7 +105,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -132,7 +132,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -160,7 +160,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -188,7 +188,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -215,7 +215,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -243,7 +243,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -271,7 +271,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -299,7 +299,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -326,7 +326,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -354,7 +354,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -382,7 +382,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -409,7 +409,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -437,7 +437,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -465,7 +465,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -494,7 +494,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -520,7 +520,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -547,7 +547,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -574,7 +574,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -587,7 +587,7 @@ public class ui extends JFrame {
 		b14.setBounds(150, 130, 30, 30);
 		b14.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(main.hitShip(4, 0)) {
+				if(main.hitShip(4, 1)) {
 					b14.setBackground(new Color(102, 255, 204));
 					b14.setEnabled(false);
 				}
@@ -602,7 +602,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -629,7 +629,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -657,7 +657,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -685,7 +685,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -713,7 +713,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -740,7 +740,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -768,7 +768,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -796,7 +796,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 			}
 		});
@@ -823,7 +823,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -851,7 +851,7 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
@@ -879,13 +879,427 @@ public class ui extends JFrame {
 				if(main.ships.size() == 0) {
 					// finish game
 					JOptionPane.showMessageDialog(null, "YOU WON :D");
-					dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+					setVisible(false); dispose();
 				}
 				
 			}
 		});
 		contentPane.add(b0114);
 		
+		// LINE 3
 		
+		JButton b20 = new JButton();
+		b20.setBackground(new Color(255,192,203));
+		b20.setForeground(new Color(255,192,203));
+		b20.setBounds(30, 160, 30, 30);
+		b20.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(0, 2)) {
+					b20.setBackground(new Color(102, 255, 204));
+					b20.setEnabled(false);
+				}
+				else {
+					b20.setBackground(new Color(102, 204, 255));
+					b20.setEnabled(false);
+				}
+				
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+			}
+		});
+		contentPane.add(b20);
+		
+		JButton b21 = new JButton();
+		b21.setBackground(new Color(255,192,203));
+		b21.setForeground(new Color(255,192,203));
+		b21.setBounds(60, 160, 30, 30);
+		b21.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(1, 2)) {
+					b21.setBackground(new Color(102, 255, 204));
+					b21.setEnabled(false);
+				}
+				else {
+					b21.setBackground(new Color(102, 204, 255));
+					b21.setEnabled(false);
+				}
+				
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b21);
+		
+		JButton b22 = new JButton();
+		b22.setBackground(new Color(255,192,203));
+		b22.setForeground(new Color(255,192,203));
+		b22.setBounds(90, 160, 30, 30);
+		b22.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(2, 2)) {
+					b22.setBackground(new Color(102, 255, 204));
+					b22.setEnabled(false);
+				}
+				else {
+					b22.setBackground(new Color(102, 204, 255));
+					b22.setEnabled(false);
+				}
+				
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b22);
+		
+		JButton b23 = new JButton();
+		b23.setBackground(new Color(255,192,203));
+		b23.setForeground(new Color(255,192,203));
+		b23.setBounds(120, 160, 30, 30);
+		b23.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(3, 2)) {
+					b23.setBackground(new Color(102, 255, 204));
+					b23.setEnabled(false);
+				}
+				else {
+					b23.setBackground(new Color(102, 204, 255));
+					b23.setEnabled(false);
+				}
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b23);
+		
+		JButton b24 = new JButton();
+		b24.setBackground(new Color(255,192,203));
+		b24.setForeground(new Color(255,192,203));
+		b24.setBounds(150, 160, 30, 30);
+		b24.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(4, 2)) {
+					b24.setBackground(new Color(102, 255, 204));
+					b24.setEnabled(false);
+				}
+				else {
+					b24.setBackground(new Color(102, 204, 255));
+					b24.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+			}
+		});
+		contentPane.add(b24);
+		
+		JButton b25 = new JButton();
+		b25.setBackground(new Color(255,192,203));
+		b25.setForeground(new Color(255,192,203));
+		b25.setBounds(180, 160, 30, 30);
+		b25.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(5, 2)) {
+					b25.setBackground(new Color(102, 255, 204));
+					b25.setEnabled(false);
+				}
+				else {
+					b25.setBackground(new Color(102, 204, 255));
+					b25.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b25);
+		
+		JButton b26 = new JButton();
+		b26.setBackground(new Color(255,192,203));
+		b26.setForeground(new Color(255,192,203));
+		b26.setBounds(210, 160, 30, 30);
+		b26.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(6, 2)) {
+					b26.setBackground(new Color(102, 255, 204));
+					b26.setEnabled(false);
+				}
+				else {
+					b26.setBackground(new Color(102, 204, 255));
+					b26.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b26);
+		
+		JButton b27 = new JButton();
+		b27.setBackground(new Color(255,192,203));
+		b27.setForeground(new Color(255,192,203));
+		b27.setBounds(240, 160, 30, 30);
+		b27.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(7, 2)) {
+					b27.setBackground(new Color(102, 255, 204));
+					b27.setEnabled(false);
+				}
+				else {
+					b27.setBackground(new Color(102, 204, 255));
+					b27.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b27);
+		
+		JButton b28 = new JButton();
+		b28.setBackground(new Color(255,192,203));
+		b28.setForeground(new Color(255,192,203));
+		b28.setBounds(270, 160, 30, 30);
+		b28.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(8, 2)) {
+					b28.setBackground(new Color(102, 255, 204));
+					b28.setEnabled(false);
+				}
+				else {
+					b28.setBackground(new Color(102, 204, 255));
+					b28.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+			}
+		});
+		contentPane.add(b28);
+		
+		JButton b29 = new JButton();
+		b29.setBackground(new Color(255,192,203));
+		b29.setForeground(new Color(255,192,203));
+		b29.setBounds(300, 160, 30, 30);
+		b29.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(9, 2)) {
+					b29.setBackground(new Color(102, 255, 204));
+					b29.setEnabled(false);
+				}
+				else {
+					b29.setBackground(new Color(102, 204, 255));
+					b29.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b29);
+		
+		JButton b0210 = new JButton();
+		b0210.setBackground(new Color(255,192,203));
+		b0210.setForeground(new Color(255,192,203));
+		b0210.setBounds(330, 160, 30, 30);
+		b0210.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(10, 2)) {
+					b0210.setBackground(new Color(102, 255, 204));
+					b0210.setEnabled(false);
+				}
+				else {
+					b0210.setBackground(new Color(102, 204, 255));
+					b0210.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b0210);
+		
+		JButton b0211 = new JButton();
+		b0211.setBackground(new Color(255,192,203));
+		b0211.setForeground(new Color(255,192,203));
+		b0211.setBounds(360, 160, 30, 30);
+		b0211.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(11, 2)) {
+					b0211.setBackground(new Color(102, 255, 204));
+					b0211.setEnabled(false);
+				}
+				else {
+					b0211.setBackground(new Color(102, 204, 255));
+					b0211.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+			}
+		});
+		contentPane.add(b0211);
+		
+		JButton b0212 = new JButton();
+		b0212.setBackground(new Color(255,192,203));
+		b0212.setForeground(new Color(255,192,203));
+		b0212.setBounds(390, 160, 30, 30);
+		b0212.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(12, 2)) {
+					b0212.setBackground(new Color(102, 255, 204));
+					b0212.setEnabled(false);
+				}
+				else {
+					b0212.setBackground(new Color(102, 204, 255));
+					b0212.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b0212);
+		
+		JButton b0213 = new JButton();
+		b0213.setBackground(new Color(255,192,203));
+		b0213.setForeground(new Color(255,192,203));
+		b0213.setBounds(420, 160, 30, 30);
+		b0213.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(13, 2)) {
+					b0213.setBackground(new Color(102, 255, 204));
+					b0213.setEnabled(false);
+				}
+				else {
+					b0213.setBackground(new Color(102, 204, 255));
+					b0213.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b0213);
+		
+		JButton b0214 = new JButton();
+		b0214.setBackground(new Color(255,192,203));
+		b0214.setForeground(new Color(255,192,203));
+		b0214.setBounds(450, 160, 30, 30);
+		b0214.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(main.hitShip(14, 2)) {
+					b0214.setBackground(new Color(102, 255, 204));
+					b0214.setEnabled(false);
+				}
+				else {
+					b0214.setBackground(new Color(102, 204, 255));
+					b0214.setEnabled(false);
+				}
+				
+
+				main.removeDownedShips();
+				
+				if(main.ships.size() == 0) {
+					// finish game
+					JOptionPane.showMessageDialog(null, "YOU WON :D");
+					setVisible(false); dispose();
+				}
+				
+			}
+		});
+		contentPane.add(b0214);
+		
+		// LINE 4
 	}
 }
