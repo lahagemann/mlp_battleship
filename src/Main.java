@@ -10,23 +10,23 @@ import util.*;
 
 public class Main {
 	
-	static List<Ship> ships;
-	static int table[][];
+	List<Ship> ships;
+	int table[][];
 	
-	public static void initTable() {
+	public void initTable() {
 		for (int i = 0; i < table.length; i++) 
 			for (int j = 0; j < table[i].length; j++) 
 				table[i][j] = 0;
 	}
 
-	public static void initDestroyers() {
+	public void initDestroyers() {
 		Random random = new Random();
 		
 		for(int i = 0; i < 3; i++) {
 			// select random position in table where ship fits.
 			// this is the middle of the ship
-			int randomX = random.nextInt(14) + 1;
-			int randomY = random.nextInt(14) + 1;
+			int randomX = random.nextInt(13) + 1;
+			int randomY = random.nextInt(13) + 1;
 			
 			boolean valid = false;
 			
@@ -50,14 +50,14 @@ public class Main {
 					
 					valid = true;
 				} else {
-					randomX = random.nextInt(14) + 1;
-					randomY = random.nextInt(14) + 1;
+					randomX = random.nextInt(13) + 1;
+					randomY = random.nextInt(13) + 1;
 				}
 			}
 		}
 	}
 	
-	public static void initSubmarines() {
+	public void initSubmarines() {
 		Random random = new Random();
 		
 		for(int i = 0; i < 4; i++) {
@@ -93,7 +93,7 @@ public class Main {
 		}
 	}
 	
-	public static void initMines() {
+	public void initMines() {
 		Random random = new Random();
 		
 		for(int i = 0; i < 5; i++) {
@@ -118,13 +118,13 @@ public class Main {
 		}
 	}
 	
-	public static void initShips() {
+	public void initShips() {
 		initDestroyers();
 		initSubmarines();
 		initMines();
 	}
 	
-	public static boolean hitShip(int x, int y) {
+	public boolean hitShip(int x, int y) {
 		
 		for (int i = 0; i < ships.size(); i++) {
 			if(ships.get(i) instanceof Mine) {
@@ -150,9 +150,9 @@ public class Main {
 		return false;
 	}
 	
-	public static void removeDownedShips() {
+	public void removeDownedShips() {
 		// only one ship is downed at once.
-		int removeIndex = 0;
+		int removeIndex = -1;
 		
 		for (int i = 0; i < ships.size(); i++) {
 			if(ships.get(i).isShipDown()){
@@ -160,10 +160,11 @@ public class Main {
 			}
 		}
 		
-		ships.remove(removeIndex);
+		if(removeIndex > 0)
+			ships.remove(removeIndex);
 	}
 	
-	public static void main(String[] args) throws IOException {
+	/*public static void main(String[] args) throws IOException {
 		ships = new ArrayList<Ship>();
 		table = new int[15][15];
 		
@@ -198,5 +199,5 @@ public class Main {
 		
 		
 		System.out.println("YOU WON!");
-	}
+	}*/
 }
