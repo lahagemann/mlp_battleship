@@ -1,5 +1,6 @@
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
@@ -8,7 +9,7 @@ import util.*;
 
 
 
-public class Main {
+public class Battleship {
 	
 	List<Ship> ships;
 	int table[][];
@@ -63,8 +64,8 @@ public class Main {
 		for(int i = 0; i < 4; i++) {
 			// select random position in table where ship fits.
 			// this is the middle of the ship
-			int randomX = random.nextInt(14);
-			int randomY = random.nextInt(14);
+			int randomX = random.nextInt(13);
+			int randomY = random.nextInt(13);
 			
 			boolean valid = false;
 			
@@ -97,8 +98,8 @@ public class Main {
 		Random random = new Random();
 		
 		for(int i = 0; i < 5; i++) {
-			int randomX = random.nextInt(15);
-			int randomY = random.nextInt(15);
+			int randomX = random.nextInt(14);
+			int randomY = random.nextInt(14);
 			
 			boolean valid = false;
 			
@@ -160,7 +161,7 @@ public class Main {
 			}
 		}
 		
-		if(removeIndex > 0)
+		if(removeIndex >= 0) 
 			ships.remove(removeIndex);
 	}
 	
